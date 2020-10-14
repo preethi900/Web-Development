@@ -1,0 +1,20 @@
+body {
+  background-color: mistyrose;
+}
+hr {
+  border-style: none;
+  width: 10%;
+  border-top-style:dotted;
+  border-color:grey;
+  border-width:10px;
+}
+h1 {
+  color : #1d2d50;
+}
+h3 {
+  color : #1d2d50;
+  font-style: italic;
+}
+img {
+  border-radius : 100%;
+}
