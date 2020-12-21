@@ -1,0 +1,27 @@
+
+
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+
+<p><%= startingContent %></p>
+
+
+<% data.forEach(function(element){ %>
+  <h1><%= element.title %></h1>
+  <p>
+    <% if(element.msg.length > 100) { %>
+    <%= element.msg.substring(0, 100) + ' ...' %>
+     <a href="/posts/<%= element.title %>">Read more</a>
+   <% } else { %>
+
+     <%= element.msg %>
+    <% } %>
+
+  </p>
+
+<% }); %>
+
+
+
+<%- include("partials/footer"); -%>
