@@ -1,7 +1,6 @@
 # Web-Development
 
-Resources
-https://www.appbrewery.co/p/web-development-course-resources
+
 
 Projects
 Project 1 : Using HTML created personal site 
